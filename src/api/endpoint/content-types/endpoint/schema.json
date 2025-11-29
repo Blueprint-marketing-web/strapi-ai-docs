@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "endpoints",
+  "info": {
+    "singularName": "endpoint",
+    "pluralName": "endpoints",
+    "displayName": "Endpoint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.endpoint-section"
+      ]
+    }
+  }
+}

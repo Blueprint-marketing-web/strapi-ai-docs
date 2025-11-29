@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apis",
+  "info": {
+    "singularName": "api",
+    "pluralName": "apis",
+    "displayName": "Api"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
