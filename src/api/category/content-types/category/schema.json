@@ -25,6 +25,9 @@
       "relation": "oneToMany",
       "target": "api::endpoint.endpoint",
       "mappedBy": "category"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
