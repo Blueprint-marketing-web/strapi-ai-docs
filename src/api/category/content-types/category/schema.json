@@ -16,8 +16,15 @@
     },
     "api": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::api.api"
+      "relation": "manyToOne",
+      "target": "api::api.api",
+      "inversedBy": "categories"
+    },
+    "endpoints": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::endpoint.endpoint",
+      "mappedBy": "category"
     }
   }
 }
