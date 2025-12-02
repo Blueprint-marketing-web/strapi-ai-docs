@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ui_attribute_sections",
+  "info": {
+    "displayName": "Attribute Section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "attributes": {
+      "type": "component",
+      "component": "ui.attribute",
+      "repeatable": true
+    },
+    "code": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

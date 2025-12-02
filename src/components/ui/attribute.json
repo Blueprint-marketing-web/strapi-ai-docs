@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_attributes",
+  "info": {
+    "displayName": "Attribute"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "string",
+        "number",
+        "boolean",
+        "object",
+        "array",
+        "array of objects"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

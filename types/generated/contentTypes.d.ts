@@ -512,7 +512,9 @@ export interface ApiEndpointEndpoint extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    sections: Schema.Attribute.DynamicZone<['ui.endpoint-section']>;
+    sections: Schema.Attribute.DynamicZone<
+      ['ui.endpoint-section', 'ui.attribute-section']
+    >;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

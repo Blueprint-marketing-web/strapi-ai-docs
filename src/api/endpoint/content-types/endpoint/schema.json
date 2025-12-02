@@ -23,7 +23,8 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "ui.endpoint-section"
+        "ui.endpoint-section",
+        "ui.attribute-section"
       ]
     }
   }
