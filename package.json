@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@strapi/plugin-documentation": "^5.31.3",
-    "@strapi/plugin-users-permissions": "5.31.2",
-    "@strapi/provider-upload-local": "5.31.2",
-    "@strapi/strapi": "5.31.2",
+    "@strapi/plugin-users-permissions": "5.31.3",
+    "@strapi/provider-upload-local": "5.31.3",
+    "@strapi/strapi": "5.31.3",
     "install": "^0.13.0",
     "npm": "^11.6.4",
     "pg": "8.8.0",
